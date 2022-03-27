@@ -1,5 +1,5 @@
 * {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 body {
@@ -14,24 +14,28 @@ body {
   margin: 10vh auto;
   max-width: 50vw;
   max-height: 50vh;
+  /* float: left;
+  width: 50vw;
+  height: 50vh;
+  object-fit: contain; */
   border-radius: 2%;
   box-shadow: 5px 10px 8px #888888;
- }
+}
 
- .mainDiv {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
- button {
-   top: 75vh;
-   position: fixed;
-   background-color: lightblue;
-   border: none;
-   border-radius: 5%;
-   padding: 15px;
-   cursor: pointer;
-   font-weight: bold;
- }
+button {
+  top: 75vh;
+  position: fixed;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5%;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
