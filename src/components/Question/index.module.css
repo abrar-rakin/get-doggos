@@ -1,0 +1,26 @@
+.btn {
+  background-color: lightblue;
+  border: none;
+  border-radius: 5%;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 2%;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.question {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.btnFlex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

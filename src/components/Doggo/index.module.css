@@ -1,23 +1,11 @@
-* {
-  font-family: "Courier New", Courier, monospace;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  background-color: rgb(240, 232, 222);
-  background-image: radial-gradient(rgb(212, 137, 94) 1.5px, transparent 3px);
-  background-size: 90px 90px;
-}
-
-#dogImg {
+.dogImg {
   margin: 10vh auto;
   max-width: 50vw;
   max-height: 50vh;
   /* float: left;
-  width: 50vw;
-  height: 50vh;
-  object-fit: contain; */
+    width: 50vw;
+    height: 50vh;
+    object-fit: contain; */
   border-radius: 2%;
   box-shadow: 5px 10px 8px #888888;
 }
@@ -29,7 +17,7 @@ body {
   align-items: center;
 }
 
-button {
+.btn {
   top: 75vh;
   position: fixed;
   background-color: lightblue;
