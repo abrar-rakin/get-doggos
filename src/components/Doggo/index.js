@@ -28,7 +28,11 @@ function Doggo() {
       {isDogLover ? (
         <div className={styles.mainDiv}>
           <h1>Awesome, get your doggo!</h1>
-          {!isLoading ? <img src={randomDoggo} alt="random dog" className={styles.dogImg} /> : <p>Loading...</p>}
+          {!isLoading ? (
+            <img src={randomDoggo} alt="random dog" className={styles.dogImg} />
+          ) : (
+            <p>Loading...</p>
+          )}
           <button onClick={fetchDoggo} className={styles.btn}>
             Get Another Doggo
           </button>
