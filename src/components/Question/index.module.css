@@ -2,25 +2,27 @@
   background-color: lightblue;
   border: none;
   border-radius: 5%;
-  height: 50px;
-  width: 100px;
+  height: 7vh;
+  width: 14vw;
   cursor: pointer;
   font-weight: bold;
+  font-size: 1vw;
   margin: 2%;
 }
 
 .title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 5vw;
 }
 
 .question {
     text-align: center;
+    font-size: 2.5vw;
     margin-top: 10%;
 }
 
 .btnFlex {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 2.5vw;
 }
