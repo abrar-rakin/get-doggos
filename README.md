@@ -10,6 +10,9 @@ Live link: [https://getdoggos.netlify.app/](https://getdoggos.netlify.app/)
 <img width="1083" alt="image" src="https://user-images.githubusercontent.com/63086922/160275331-6e7e4bc6-18a5-41ed-92c6-6941299a6e23.png">
 
 ### Vision
-- Add more useful features like searching for a particular breed of dog
+- Add more useful features like searching/filtering for a particular breed (and sub-breed) of dog
 - Bookmark/Favorite dog pictures
 - Add animations to make UI more aesthetic
+- Marketplace to buy food and accessories for dogs
+- Option to volunteer for dog adoption
+- Dogs/puppies for sale
